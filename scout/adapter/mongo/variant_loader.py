@@ -369,7 +369,7 @@ class VariantLoader(object):
         hgncid_to_gene = self.hgncid_to_gene(genes=genes)
         genomic_intervals = self.get_coding_intervals(genes=genes)
         
-        LOG.info("Start inserting variants into database")
+        LOG.info("Start inserting {0} variants into database".format(variant_type))
         start_insertion = datetime.now()
         start_five_thousand = datetime.now()
         # These are the number of parsed varaints
