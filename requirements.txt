@@ -32,3 +32,6 @@ intervaltree
 
 # chanjo-report
 python-dateutil
+
+# Requesting resources
+pybiomart
