@@ -239,7 +239,7 @@ def hpoterms():
     json_terms = [
         {'name': '{} | {}'.format(term['_id'], term['description']),
          'id': term['_id']
-        } for term in terms]
+        } for term in terms[:7]]
     
     return jsonify(json_terms)
 
